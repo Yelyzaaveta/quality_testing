@@ -8,20 +8,20 @@ humanIMB та Main мають бути в ріних файлах.
 
 2. **Змінним** потрібно надавати **зрозумілі назви**.
 
-    2.1 W -> humanWeight
-    2.2 H -> humanHeigh
-    2.3 imb -> bodyMassIndex (я спочатку подумала шо це mbi)
+    2.1 W -> humanWeight <br>
+    2.2 H -> humanHeigh <br>
+    2.3 imb -> bodyMassIndex (я спочатку подумала шо це mbi) <br>
     2.4 **string -> classification\type** (у Result теж замінюєм бо шо за string не зрозуміло)
 
 
 3. **Функції** теж мають мати **зрозумілі назви** щоб іншим було легше працювати з їхнім викликом, розумінням коду і ти сам не плутався.
 Типу тут ще можна замінити на get та set бо ми не кладемо вагу кудись а просто отримуємо\встановлюєм
 
-    3.1 takeW -> getWeight
-    3.2 putW -> setWeight
-    3.3 takeH -> getHigh
-    3.4 putH -> setHigh
-    3.5 takeImt -> getBodyMassIndex
+    3.1 takeW -> getWeight <br>
+    3.2 putW -> setWeight <br>
+    3.3 takeH -> getHigh <br>
+    3.4 putH -> setHigh <br>
+    3.5 takeImt -> getBodyMassIndex <br>
     3.6 Result -> getBodyClassification
 
 
